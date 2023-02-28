@@ -1,89 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
-* {
-  margin: 0;
-  padding: initial;
-  width: initial;
-  height: initial;
-}
-#navbar {
-  background-color: rgb(80, 78, 78);
-  width: 100%;
-  height: 100%;
-  margin: 0;
+.navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background-color: darkgray;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: -8px;
 }
 
-#navbar li {
-  list-style: none;
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-items {
+  padding: 1rem;
+}
+
+svg {
+  display: block;
+  width: 14px;
+}
+
+.menu {
+  display: block;
+  width: 14px;
+}
+
+.web {
+  display: block;
+  width: 14px;
+}
+
+.icon-list {
+  display: flex;
+}
+
+.icon-list li {
+  padding: 1rem;
+}
+
+.name {
+  height: 40px;
+  margin-top: 20px;
   padding: 0.5rem;
 }
 
 .container {
-  background-color: rgb(80, 78, 78);
-  width: 1380px;
-  height: 415px;
+  background-color: gray;
+  width: 102%;
+  height: 490px;
+  margin-left: -8px;
+  margin-top: 82px;
 }
 
-.name {
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  display: flex;
-  margin-left: 20px;
-  justify-content: start;
-  font-size: 33px;
-  font-style: oblique;
-  font-weight: bold;
-  color: white;
+.myname {
+  width: 115px;
+  margin-left: 140px;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
-.intro {
-  color: rgb(0, 0, 0);
-  width: 176px;
-  height: 210px;
-  padding: 13px;
-  margin: 17px;
+.line {
+  background-color: yellow;
+  width: 155px;
+  height: 6px;
+  margin-left: 150px;
+  margin-top: -45px;
 }
 
-.services {
-  width: 176px;
-  height: 210px;
-  padding: 13px;
-  margin: 17px;
-  margin-left: 1074px;
-  margin-top: -294px;
+.aboutme {
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-family: 'Antic Slab', serif;
+  color: aliceblue;
+}
+
+.image {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  margin-left: 375px;
+  margin-top: -395px;
+  border: 1px solid;
+  border-radius: 50%;
 }
 
 .profile {
-  background-color: black;
-  width: 400px;
-  height: 397px;
-  border: 1px solid;
+  width: 510px;
+  height: 408px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-left: 825px;
+  margin-top: -455px;
+  width: 205px;
+  font-family: 'Antic Slab', serif;
+  color: aliceblue;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
   border-radius: 50%;
-  margin-top: -290px;
-  margin-left: 422px;
 }
 
-.profile img {
-  height: 310px;
-  margin-top: 90px;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 
-.icons {
-  background-color: rgb(95, 93, 93);
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social-icons {
+  width: 300px;
+  margin-left: 820px;
+  height: 80px;
+}
+
+.fa-facebook {
+  background: darkgrey;
+  color: burlywood;
+}
+
+.fa-twitter {
+  background: darkgrey;
+  color: burlywood;
+}
+
+.fa-instagram {
+  background: darkgrey;
+  color: burlywood;
+}
+
+.fa-pinterest {
+  background: darkgrey;
+  color: burlywood;
+}
+
+.show-more {
   display: flex;
   flex-direction: row;
-  width: 990px;
-  height: 112px;
+  width: 505px;
+  height: 25px;
+  margin-left: 825px;
+  color: wheat;
 }
 
-.icons li {
-  list-style: none;
-  list-style-position: inside;
+.right-arrow {
+  width: 40px;
 }
 
-.icons li img {
-  width: 135px;
+h1 {
+  width: 230px;
+  font-family: 'Passion One', cursive;
+  color: aliceblue;
+}
+
+.im {
+  color: darkslategray;
+}
+
+.omar {
+  display: inline-block;
+  font-size: 4.5rem;
+  width: 450px;
+}
+
+.social-media-icons {
+  background-color: rgb(114, 113, 113);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  width: 80%;
+  height: 100px;
+  margin-top: 130px;
+  margin-left: 132px;
+}
+
+.meta {
+  width: 100px;
+}
+
+.google {
+  width: 100px;
+}
+
+.linkedin {
+  width: 100px;
+}
+
+.slack {
+  width: 100px;
 }
