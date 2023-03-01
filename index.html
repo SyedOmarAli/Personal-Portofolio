@@ -1,63 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Syed Omar Ali - Personal Portfolio Website</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <nav class="navbar">
-       <div class="name"> 
-        &#128516;Omar
-       </div>
-      <ul class="list">
-        <li class="list-items">Home</li>
-        <li class="list-items">Portfolio</li>
-        <li class="list-items">Testimonial</li>
-        <li class="list-items">About</li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Omar Ali - Personal Portfolio Website</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="name">
+      &#128516;Omar
+    </div>
+    <ul class="list">
+      <li class="list-items"> <a href="#" class="nav-link" > Home</a></li>
+      <li class="list-items"><a href="#" class="nav-link">Portfolio</a></li>
+      <li class="list-items"><a href="#" class="nav-link">Testimonial</a></li>
+      <li class="list-items"><a href="#" class="nav-link">About</a></li>
+    </ul>
+    <ul class="icon-list">
+      <li><img src="./images/web.png" alt="web" class="web"></li>
+      <li><svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+        </svg></li>
+      <li><img src="./images/menu.png" alt="menu" class="menu"></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="myname">
+      <h1 class="omar"><span class="im">I'm</span> <br> Syed Omar Ali</h1>
+    </div>
+    <div class="line"></div>
+    <div class="aboutme">
+      <p class="para"> A freelancer who provides services for digital marketing and design content needs, for all
+        businesses with more than
+        10 years of expereince </p>
+    </div>
+
+    <div class="image">
+      <img src="./images/img.png" alt="image" class="profile">
+    </div>
+
+    <div class="services">
+      <h4>Services</h4>
+      <p class="para2">Let's build quality products in programming and design with my services</p>
+    </div>
+    <a href="#" class="show-more">Show More <i class="fa fa-long-arrow-right"></i></a> <br>
+    <div class="social-icons">
+      <ul>
+        <li>
+          <i class="fa fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fa fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fa fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fa fa-pinterest-p"></i>
+        </li>
       </ul>
-      <ul class="icon-list">
-        <li><img src="./web.png" alt="web" class="web"></li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></li>
-        <li><img src="./menu.png" alt="menu" class="menu"></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-      <div class="myname">
-        <h1 class="omar"><span class="im">I'm</span> <br> Syed Omar Ali</h1>
-      </div>
-      <div class="line"></div>
-      <div class="aboutme">
-        A freelancer who provides services for digital marketing and design content needs, for all businesses with more than 
-        10 years of expereince 
-      </div>
-
-      <div class="image">
-        <img src="./img.png.png" alt="image" class="profile">
-      </div>
-
-      <div class="services">
-        <h2>Services</h2>
-        Let's build quality products in programming and design with my services
-      </div>
-      <div class="show-more">show more <img src="./right-arrow.png" alt="arrow" class="right-arrow"></div>
-       <div class="social-icons">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-pinterest"></a>
     </div>
     <div class="social-media-icons">
-      <div><img src="./meta.png" alt="meta" class="meta">Meta</div>
-      <div><img src="./google.png" alt="google" class="google"></div>
-      <div><img src="./linkedin.png" alt="linkedin" class="linkedin"></div>
-      <div><img src="./slack.png" alt="slack" class="slack"></div>
+      <div class="media-icon"><img src="./images/meta.png" alt="meta" class="meta"></div>
+      <div class="media-icon"><img src="./images/google.png" alt="google" class="google"></div>
+      <div class="media-icon"><img src="./images/linkedin.png" alt="linkedin" class="linkedin"></div>
+      <div class="media-icon"><img src="./images/slack.png" alt="slack" class="slack"></div>
     </div>
+  </div>
+
+  <div class="needs">
+    <div class="left-column">
+      <h3>What Can I Do For Your Needs </h3>
+      <p class="needs-para">It is easier to entrust the work to the <br> experts because they are able to provide <br>
+        the best results with reliable quality
+      </p>
     </div>
-    
-  </body>
+
+    <div class="projects">
+      <div class="myproject"></div>
+      <div class="myproject"></div>
+      
+    </div>
+    <div class="community">
+      <div class="mycommunity"></div>
+      <div class="mycommunity"></div>
+    </div>
+
+    <!-- <table>
+      <tbody>
+         <tr>
+            <td class="space color">25O+ <br><small class="top">Project Completed</small></td>
+            <td class="color">1OO+ <br><small class="top">Community Network</small></td>
+         </tr>
+         <tr>
+            <td class="space color">3O+ <br><small class="top">Contract Remote</small></td>
+            <td class="color">1O+ <br><small class="top">Years Experience</small></td>
+         </tr>
+      </tbody>
+   </table> -->
+   <div class="right-column">
+
+   </div>
+   
+  </div>
+
+
+</body>
+
 </html>
