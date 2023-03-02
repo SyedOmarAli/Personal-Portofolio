@@ -285,7 +285,9 @@ h4 {
   width: 103%;
   height: 653px;
   margin-top: -20px;
+  margin-left: -10px;
 }
+
 
 .left-column {
   width: 475px;
@@ -308,16 +310,34 @@ h3 {
 }
 
 .projects {
-  display: flex;
+  display: inline;
   background-color: grey;
   width: 540px;
   height: 270px;
 }
 
 .myproject {
-  background-color: yellowgreen;
+  background-color: #ffbe3d;
   width: 200px;
   height: 100px;
+  padding-left: 112px;
+  padding-top: 25px;
+}
+
+.community {
+  width: 200px;
+  height: 198px;
+  margin-left: 201px;
+  margin-top: -198px;
+  padding-left: 120px;
+}
+
+.mycommunity {
+  position: relative;
+  top: -18%;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 198px;
 }
 
 /* table {
