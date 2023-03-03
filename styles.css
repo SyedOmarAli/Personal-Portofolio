@@ -365,6 +365,7 @@ h3 {
 }
 
 .proj-head {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 24px;
   font-weight: lighter;
   margin-bottom: 1.6px;
